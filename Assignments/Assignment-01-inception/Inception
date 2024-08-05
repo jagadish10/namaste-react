@@ -1,0 +1,35 @@
+What is Emmet?
+---------------------------------------------------------------
+Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code.
+
+Difference between a Library and Framework?
+---------------------------------------------------------------
+A key difference between the two is Inversion of control.
+While using library developer will be having control to call the library whenever he needs, but while using framework developer won't be having control for it.
+
+What is CDN? Why do we use it?
+---------------------------------------------------------------
+A CDN (content delibvery network) allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
+and CDN it will help us by reducing the latency of content by caching the things nearer to us.
+
+Why is React known as React?
+---------------------------------------------------------------
+The name ‘React’ was chosen because it will allows developers to react to 'changes in state and data' within an application.
+
+What is crossorigin in script tag?
+---------------------------------------------------------------
+It is a way to indicate the data may come from other origins so we are allowing to take from different domain.
+
+What is diference between React and ReactDOM
+---------------------------------------------------------------
+React gives the fundamental functions while ReactDoM gives functions which we can use for modifying the DOM.
+
+What is difference between react.development.js and react.production.js files via CDN?
+---------------------------------------------------------------
+react.development.js - More developer friendly, readable, will take more size.
+react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+
+ What is async and defer?
+---------------------------------------------------------------
+With async, the script executes as soon as it's downloaded, potentially before the HTML document is fully parsed. With defer, the script executes only after the HTML document is fully parsed, but before the DOMContentLoaded event.
+
