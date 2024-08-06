@@ -1,0 +1,81 @@
+What is `NPM`?
+-------------------------------------------------------------------------
+NPM is a package manager where commanly used packages or published.
+and it is free and open-source registry and package manager for Node.js projects that developers use to create applications and websites.
+
+What is `Parcel/Webpack`? Why do we need it?
+-------------------------------------------------------------------------
+Parcel/webpack is a bundlers. we will use this to optimize the application by doing many operations like bundling, image optimization, caching the files, HMR(hot module replacemet) and many more.
+
+What is `.parcel-cache`
+-------------------------------------------------------------------------
+It is a folder where it keeps the files caches when we build the application so if the things are not changed in the files for the next time it will not build again so it will be very fast.
+
+What is `npx` ?
+-------------------------------------------------------------------------
+The npx stands for Node Package Execute and it comes with the npm,
+It is used to run packages which we installed through npm.
+
+What is difference between `dependencies` vs `devDependencies`
+-------------------------------------------------------------------------
+`dependencies` packages are important to run the application without this we can't run the application.
+but where as `devDependencies` packages are required for development work without this also application can run.
+
+What is Tree Shaking?
+-------------------------------------------------------------------------
+This concept is used to remove the unused code at the time of building the application.
+
+What is Hot Module Replacement?
+-------------------------------------------------------------------------
+Hot Module Replacement (HMR) is a feature that allows developers to update modules in a running application without reloading the page.
+This can save the time of developers and it is more efficient.
+This built using c++ language.
+
+List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+-------------------------------------------------------------------------
+Bundling
+--> this will make sure it bundles everything in a single file so it will be fast and size will be very minimal.
+Image Optimization
+--> to render images in browser it is a costly operation so we need to optimize the images as much as possible.
+Error Handling
+Hot module replacemet
+Minification
+Caching
+Tree shaking
+Differential Bundling - to support older browsers
+--> It will make sure it supports the whatever browers list we mentioned in package.json
+
+What is `.gitignore`? What should we add and not add into it?
+-------------------------------------------------------------------------
+`.gitignore` is a file where we can mention the files or folders which we don't want to track or push into the github repo.
+
+What should we add (things which are necessary to run/build the application)
+source code
+package.json and package.lock.json
+readme file
+
+What should we not add (things which can be generated )
+node_modules
+dist
+.parcel-cache
+
+
+What is the difference between `package.json` and `package-lock.json`
+-------------------------------------------------------------------------
+`package.json` will be having the dependencies and the approximate version of the packages while `package-lock.json` file will be having exact versions of the packages and its dependencies packages.
+
+
+Why should I not modify `package-lock.json`?
+-------------------------------------------------------------------------
+To ensure consistency and reproducibility across different environments we should not modify this.
+
+What is `node_modules` ? Is it a good idea to push that on git?
+-------------------------------------------------------------------------
+node_modules it is a folder which will get created at the time of npm install and it will be having all the dependent packages which are mentioned in the package.json and its dependent.
+
+It is not a good idea to push this files into github beacuse this are verry heavy it will having lot of files and morever this can be easily regenerated so no need to push into github.
+
+What is the `dist` folder?
+-------------------------------------------------------------------------
+This folder will be created when we build the application so it will bundle the files and it keeps here and for the production it will still optimize the code.

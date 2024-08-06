@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "namasthe react course",
   "scripts": {
+    "start": "npx parcel hello.html",
+    "build": "npx parcel build hello.html",
     "test": "jest"
   },
   "repository": {
